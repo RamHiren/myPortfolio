@@ -1,3 +1,11 @@
+
+document.querySelectorAll('nav ul li a').forEach(item => {
+    item.addEventListener('click', () => {
+        document.getElementById('click').checked = false; 
+    });
+});
+
+
 const typed = new Typed('.multi-text', {
     strings: [ 'Hiren Ram', 'A Designer', 'A Developer', 'A Freelancer'],
     typeSpeed: 100,

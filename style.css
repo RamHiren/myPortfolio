@@ -95,14 +95,17 @@ nav .menu-btn i {
 
     }
 
-    #click:checked~.menu-btn i:before {
+    #click:checked +.menu-btn i:before {
         content: "\f00d";
+        /* left: 100%; */
     }
 
     #click:checked~ul {
         left: 0%;
-
+        /* left: 100%; */
     }
+
+    
 
     nav ul li {
         margin: 80px 0;
